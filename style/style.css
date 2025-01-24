@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-normal{
+    font-family: "Quicksand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    
+  }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ header{
+    margin: 20px 140px;
+
+ }
+.header-nav{
+    /* margin-top:20px; */
+    display: flex;
+    /* margin-right: 140px; */
+    gap: 188px;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+    padding-right: 140px;
+   
+}
+.nav-1st{
+    display: flex;
+    /* margin: 20px 140px; */
+    gap: 11px;
+    align-items: center;
+}
+.nav-list li{
+    margin: 0 20px;
+}
+.mama{
+    height: 62px;
+    width: 62px;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+    
+}
+.nav-list{
+    display: flex;
+    list-style:none;
+    /* margin-top:36px; */
+    margin: 0;
+    padding: 0;
+    gap:32px;
+    font-size: 1.25rem;
+    font-weight: medium;
+}
+.nav-list a{
+    text-decoration: none;
+
+}
+.btn-primary{
+    background-color:orange;
+    /* margin-right: 140px; */
+    /* margin-top: 26px; */
+    border: none;
+    border-radius: 12px;
+    color:#FFFFFF ;
+    width:157px ;
+    height: 50px;
+    font-size: 20px;
+    font-weight:semibold;
+}
+.hamburger-menu{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger-menu span{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin:4px 0 ;
+}
+#jjj{
+   max-width:1440px;
+   background-color:orange ;
+}
+/* student vision */
+.nav-container{
+    display: flex;
+    gap: 50px;
+    
+    align-items: center;
+}
+.student-vision{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: black;
+    padding: 120px 0px;
+    align-items: center;
+    width: max-content;
+}
+.vision-desc{
+    font-size: 1.25rem;
+    color: black;
+    padding-top:22px;
+}
+.vision-btn{
+    font-weight:bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color:black ;
+    border-radius: 12px;
+}
+.vision-img{
+     width: 468px; 
+    height: 575px; 
+    padding:0 ;
+}
+/* main */
+.section-a{
+    background-image: url(https://i.ibb.co.com/ygXYZc5/bg.png);
+    height: 870px;
+}
+.study-title{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 28px;
+    /* height: 480px; */
+    /* margin: 80px 45px; */
+    margin: 20px 140px;
+
+}
+.btn-study{
+    border: none;
+    box-shadow:0 0 28px rgba(0, 0, 0, 0.05) ;
+    border-radius: 18px;
+    
+    text-align: center;
+    align-items: center;
+    padding:55px 40px ;
+
+}
+.curriculum{
+    /* justify-content: center; */
+    font-weight: 700;
+    font-size: 3.8rem;
+    /* align-items: center; */
+    align-items: center;
+    max-width: 1440px;
+   margin-left:700px;
+}
+.kala{
+    font-weight: 700;
+    font-size: 24px;
+    color: #202020;
+    padding: 31px 70px;
+}
+.lal{
+    font-weight: 500;
+    font-size: 15px;
+    color: #808080;
+    padding: 32px 40px;
+}
+.div1{
+background:linear-gradient(to top,#FFFFFF,#01ACFD,#6EA5BA);
+}
+.div3{
+    background:linear-gradient(to top right,#F2E8FF,#D4C3EC,#9550F0) ;
+}
+.div2{
+    background:linear-gradient(to top right,#FFF4DC,#FDD57F ) ;
+}
+.fff{
+    border: 1px solid orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.ggg{
+    border: 1px solid orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.ttt{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 60px;
+    margin-top: 80px;
+}  
+/* story */
+
+.story{
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+    max-width: 1500px;
+    margin-left: 750px;
+    
+
+}
+
+
+.babu-img{
+    /* width: 40%; */
+    border-radius: 16px;
+    margin-top:20px ;
+}
+.babu-btn{
+    width: 174px;
+    height: 47px;
+   background-color: #3CD8E8; 
+   border-radius: 47px;color: #FFFFFF;
+   margin-left: 35px;
+   margin-top:-100px;
+}
+.babu-tit{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    padding: 36px;
+}
+.babu-dec{
+    font-weight: 500;
+    font-size: 15px;
+    color:#666666;
+    padding: 36px;
+}
+.month-title{
+    gap: 10px;
+}
+ .month-title img{ 
+   
+   
+} 
+.month{
+  font-weight: 500;  
+  font-size: 15px;
+  color: #ffffff;
+  background-color:#95B226 ;
+  border-radius: 47px;
+  /* width: 170px; */
+  /* height: 36px; */
+   margin-left: 35px; 
+   margin-top:-70px; 
+}
+ .amar{ 
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+} 
+.ban-story{ 
+    /* width: 1160px; */
+    /* height: 625px; */
+    /* margin: 80px 100px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    margin: 20px 140px;
+} 
+.baro{
+    width:50%;
+    height: 620px;
+    flex: 1 1 calc(50%-10px);
+   
+
+}
+.nnn{
+    flex: 1 1 calc(33.33%-10px);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.nnn img{
+border-radius: 15px;
+width: 100%;
+}
+.section-b{
+    background: linear-gradient(to bottom,#FFFFFF,#F9F9F9,#FEA);
+}
+.story-btn{
+    width: 73px;
+    height: 30px;
+
+   /* margin-right: 800px; 
+   margin-left: 800px; 
+   margin-top: 60px; */
+    border-radius: 12px;
+    background-color:black;
+    color: white;
+    font-weight: 700;
+     font-size: 20px;
+     
+    text-align: center;
+     margin: 70px 800px;
+}
+
+/* footer */
+.footer-section{
+    background-color:#01ACFD ;
+    width: 100vw;
+        height: 519px;
+       
+}
+.llllll{
+    display: flex;
+        justify-content:space-between;
+         /* margin-left: 140px; */
+    padding-top: 122px;
+    /* margin: 20px 140px; */
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+.kids{
+    display: flex;
+    /* margin-left: 140px;
+    padding-top: 122px; */
+
+
+
+}
+.education{
+    font-weight: 700; 
+    font-size: 42px;
+    color: #FFFFFF;
+    /* padding-top: 10px; */
+}
+.about-boy{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.angore{
+    font-weight: 500;
+    font-size:20px;
+    padding-top: 32px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.touch{
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.logo{
+    padding-top:32px;
+}
+
+
+
+
+@media only screen and (max-width: 576px){
+    .nav-list{
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        /* position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 150px;
+        padding: 10px; */
+        
+        
+ }
+ 
+ body{ 
+    margin:20px 0 ;
+    max-width: 412px;
+ }
+ .jjj{
+    background-color:orange;
+    width: 100vw;
+    border: 1px solid orange;
+    margin-top: 20px;
+    
+    
+ }
+ 
+ .school{
+    display: none;
+
+ }
+ .btn-primary{
+    display: none;
+ }
+
+
+    .hamburger-menu{
+        display: flex;
+    }
+    .curriculum{
+        margin-left: 140px;
+    }
+    .baro{
+        display: none;
+    }
+    .student-vision{
+        max-width: 576px;  
+        margin: 0 auto;
+        text-align: center;
+       }
+        
+       }
+       @media only screen and (max-width: 576px){
+        .nav-container{ 
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin: 8px 16px; 
+        }
+    }
+       @media only screen and (max-width: 576px){
+
+    .ban-story{
+       width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* .story{
+        display: flex;
+        justify-content: center;
+
+    } */
+}
+
+@media screen and (max-width:576px) {
+    
+}
+/* @media screen and (max-width: 576px){
+    .vision-img{
+        
+        width: 410px;
+       
+            
+        }
+    }
+}
+/* section */
+
+
+    .study-title{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.fff{
+    display: none;
+}
+.ggg{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .footer-section{
+        width: 100vw;
+        height: 100vh;
+    }
+    .llllll{
+        display: block;
+    }
+    .bbbbb{
+        display: block;
+ 
+    }
+    .mmmmm{
+        display: block;
+
+    }
+}
+
+    
